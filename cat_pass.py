@@ -1,5 +1,7 @@
 class Cat :
-    pass
+    def meow(self):
+        print("meow")
 
 nabi = Cat()
 print(nabi)
+nabi.meow()
